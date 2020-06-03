@@ -17,7 +17,7 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World By CD";
+		return "Hello World By Contineous Deployment";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
