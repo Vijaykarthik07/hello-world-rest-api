@@ -17,14 +17,14 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World From Contineous Deployment Success VijayKarthik MR";
+		return "Hello World From Contineous Deployment Success Jawahar From Madurai";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
 		// throw new RuntimeException("Some Error has Happened! Contact Support at
 		// ***-***");
-		return new HelloWorldBean("Hello World Vijaykarthik Through Contineous Deployment... ");
+		return new HelloWorldBean("Hello World Vijaykarthik Through Contineous Deployment...Jawahar ");
 	}
 
 	@GetMapping(path = "/hello-world/path-variable/{name}")
